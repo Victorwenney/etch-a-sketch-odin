@@ -10,6 +10,16 @@ for(let i = 0; i < 16*16; i++){
     gridContainer.appendChild(div);
 }
 
+const blackButton = document.querySelector('.blackButton');
+blackButton.addEventListener('click', () => {
+    const pixels = document.querySelectorAll('.pixel');
+    pixels.forEach(pixel => {
+        pixel.addEventListener('mouseenter', () => {
+            pixel.style.backgroundColor = 'black';
+        });
+    });
+});
+
 const sizeButton = document.querySelector('.sizeButton');
 sizeButton.addEventListener('click', () => {
     let size = prompt("Plase enter the grid size tou desire:");

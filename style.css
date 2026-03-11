@@ -31,3 +31,8 @@ button {
     border-radius: 20px;
     border-width: 1px;
 }
+
+#buttonsContainer {
+    display: flex;    
+    gap: 20px;
+}
