@@ -9,10 +9,12 @@ html {
 
 body {
     display: flex;
+    flex-direction: column;
     min-height: inherit;
     align-items: center;
     justify-content: center;
     background-color: azure;
+    gap: 50px;
 }
 
 #gridContainer {
@@ -22,4 +24,10 @@ body {
     flex-wrap: wrap;
     width: 400px;
     height: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-width: 1px;
 }
