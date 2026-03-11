@@ -13,7 +13,7 @@ body {
     min-height: inherit;
     align-items: center;
     justify-content: center;
-    background-color: azure;
+    background-color: aliceblue;
     gap: 50px;
 }
 
@@ -22,8 +22,8 @@ body {
     border: 5px solid orange;
     border-radius: 5px;
     flex-wrap: wrap;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    aspect-ratio: 1 / 1;
 }
 
 button {

@@ -44,3 +44,11 @@ rainbowButton.addEventListener('click', () => {
         });
     });
 });
+
+const resetButton = document.querySelector(".resetButton");
+resetButton.addEventListener("click", () => {
+    const pixels = document.querySelectorAll('.pixel');
+    pixels.forEach(pixel => {
+        pixel.style.backgroundColor = 'white';
+    });
+});
